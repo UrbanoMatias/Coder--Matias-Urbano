@@ -5,7 +5,7 @@
 }
 
 .header {
-  background-color: black;
+  background-color: lightblue;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -21,4 +21,9 @@ nav ul li{
   display: inline-flex;
   color: white;
   margin-left: 75px;
+}
+
+
+.cart {
+  color: black;
 }

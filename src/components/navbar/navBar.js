@@ -1,3 +1,7 @@
+import React from "react";
+import { CartWidget } from "../cartWidget/CardWidget";
+
+
 export const NavBar = () => {
     return (
         <header className="header">
@@ -9,6 +13,7 @@ export const NavBar = () => {
                     <li>Carrito</li>
                 </ul>
             </nav>
+            <CartWidget/>
         </header>
     )
 }
